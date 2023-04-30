@@ -19,7 +19,7 @@
 # See below for details.
 # https://github.com/hashicorp/terraform-provider-google/issues/11865
 resource "google_apikeys_key" "maps_api_key" {
- name         = "maps-api-key"
+ name         = "maps-api-key-spa"
  display_name = "maps-api-key"
  project      =  var.project_id
 
